@@ -20,11 +20,11 @@ This is a **Blog System** built using **React.js** for the frontend and **Django
 ### **Backend:**
 - Django
 - Django REST Framework
-- SQLite (default) / PostgreSQL (for production)
+- SQLite (default) 
 
 ---
 
-## 🔥 Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```sh
@@ -94,32 +94,6 @@ Frontend will run at **http://localhost:3000/**
 | DELETE | `/api/blogs/{id}/` | Delete a blog |
 | GET | `https://restcountries.com/v3.1/all` | Fetch country data |
 
----
-
-## 🚀 Deployment
-### **Deploy Backend (Django) on Render**
-1. Push your project to GitHub.
-2. Create an account on **[Render](https://render.com/)**.
-3. Click **New Web Service** → Connect GitHub Repo.
-4. Set **Start Command**: `gunicorn backend.wsgi`
-5. Deploy & get your live API URL.
-
-### **Deploy Frontend (React.js) on Vercel**
-1. Install Vercel CLI:
-   ```sh
-   npm install -g vercel
-   ```
-2. Login to Vercel:
-   ```sh
-   vercel login
-   ```
-3. Deploy:
-   ```sh
-   vercel
-   ```
-4. Get the **Live Project URL** and share it!
-
----
 
 ## 🛠 Troubleshooting
 - If you face migration issues, run:
@@ -144,4 +118,4 @@ Developed by **Akshay Ahuja**
 
 ---
 
-### 🎯 Now you're ready to use the Blog System! 🚀🔥
+###  Now you're ready to use the Blog System! 
